@@ -4,7 +4,7 @@ spring:
       ddl-auto: create
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    url: jdbc:postgresql://postgresserver/docker
+    url: jdbc:postgresql://spring-boot-postgres/docker
     username: dbuser
     password: dbpassword
     driver-class-name: org.postgresql.Driver
