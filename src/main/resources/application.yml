@@ -4,7 +4,7 @@ spring:
       ddl-auto: create
     database-platform: postgres
   datasource:
-    url: jdbc:postgresql://${POSTGRES_PORT_3306_TCP_ADDR}:${POSTGRES_PORT_3306_TCP_PORT}/${POSTGRES_DB}
+    url: jdbc:postgresql://postgresserver/docker
     username: ${POSTGRES_USER}
     password: ${POSTGRES_PASSWORD}
     driver-class-name: org.postgresql.Driver
