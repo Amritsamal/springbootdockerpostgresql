@@ -2,7 +2,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
-    database-platform: postgres
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
     url: jdbc:postgresql://postgresserver/docker
     username: dbuser
