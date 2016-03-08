@@ -5,6 +5,6 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
     url: jdbc:postgresql://172.17.0.19:5432/docker
-    username: postgres
+    username: dbuser
     password: dbpassword
     driver-class-name: org.postgresql.Driver
