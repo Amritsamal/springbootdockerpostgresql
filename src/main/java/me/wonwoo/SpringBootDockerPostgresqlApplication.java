@@ -24,7 +24,8 @@ public class SpringBootDockerPostgresqlApplication {
 	CommandLineRunner runner() {
 		return args -> Arrays.asList(
 				new Account(1L,"wonwoo","wonwoo@test.com"),
-				new Account(2L,"kevin","kevin@test.com")
+				new Account(2L,"kevin","kevin@test.com"),
+				new Account(3L,"mink","mink@test.com")
 		).forEach(repository::save);
 	}
 }
