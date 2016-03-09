@@ -2,8 +2,6 @@
 
 Spring boot docker postgresql Sample
 
-[![](https://badge.imagelayers.io/wonwoo/spring-boot-docker-postgresql:latest.svg)](https://imagelayers.io/?images=wonwoo/spring-boot-docker-postgresql:latest 'Get your own badge on imagelayers.io')
-
 ```
 $ git clone https://github.com/wonwoo/spring-boot-docker-postgresql.git
 $ cd spring-boot-docker-postgresql
